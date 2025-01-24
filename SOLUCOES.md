@@ -15,3 +15,8 @@
   ls
 ``` 
 ---
+**p4-b: comando `mkdir <nome do diretorio>` para criar um diretório, acredito que assim como `ls` e o `cd` são comandos bem conhecidos também no windows.**
+```bash
+  mkdir foo
+``` 
+---
