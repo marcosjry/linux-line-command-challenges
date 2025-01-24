@@ -10,3 +10,8 @@
   cd challenges
 ``` 
 ---
+**p3-b: é só utilizar o comando `ls` depois de ter entrado no diretório _challenges_ no desafio anterior, ele irá listar todos arquivos e diretórios dentro do diretório atual.**
+```bash
+  ls
+``` 
+---
