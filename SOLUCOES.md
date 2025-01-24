@@ -5,3 +5,8 @@
   tar -xvzf challenges.tar.gz
 ``` 
 ---
+**p2-b: utilizei o comando `cd <nome-do-diretorio>` porque já estava no mesmo diretório em que a pasta estava visível. Mas o comando dessa forma `cd <caminho/para/pasta>` também serve.**
+```bash
+  cd challenges
+``` 
+---
