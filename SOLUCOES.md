@@ -24,7 +24,13 @@
 ```bash
   mkdir -p foo/bar/1/2/3    
 ```
+---
 **p6-b: pensando no desafio anterior, tentei seguir a mesma lógica que usei e funcionou mas, é necessário ir do último diretório pro inicial -> `rmdir foo/bar/1/2/3 && rmdir foo/bar/1/2 && rmdir foo/bar/1 && rmdir foo/bar && rmdir foo` e foi funcional, mas aqui novamente a flag -p deixa o comando bem mais simples e enxuto.**
 ```bash
  rmdir -p foo/bar/1/2/3
+```
+---
+**p7-b: o comando pra printar uma linha de texto é o `echo`.**
+```bash
+ echo "Hello World"
 ```
