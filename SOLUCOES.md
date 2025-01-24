@@ -20,3 +20,7 @@
   mkdir foo
 ``` 
 ---
+***p5-b: O primeiro comando que me veio a cabeça foi `mkdir foo && cd foo mkdir bar && cd bar && mkdir 1 && cd 1 && mkdir 2 && cd 2 && mkdir 3` mas pela lógica, ele pareceu um pouco confuso apesar de funcional. Então, pesquisei e existe uma forma muito mais simples e ainda diminui as chances de erro. Além disso, aparentemente é necessário a flag `-p`.**
+```bash
+  mkdir -p foo/bar/1/2/3    
+```
