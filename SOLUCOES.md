@@ -34,3 +34,8 @@
 ```bash
  echo "Hello World"
 ```
+---
+**p8-b: o mesmo comando que faz um print de uma string, também pode ser usado para inserir a string no arquivo caso não exista, se existir ele é sobrescrito `echo 'texto escolhido' > <nome-do-arquivo>.txt`.**
+```bash
+ echo "Hello world" > hello.txt
+```
