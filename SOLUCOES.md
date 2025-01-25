@@ -103,4 +103,10 @@ O comando usado foi o `echo "" > empty.txt`**
   ./hello_executable
 ```
 ---
+**p21-b: o comando usado aqui foram dois, primeiro o `chmod <permissão> <nome do arquivo>`. Porque o arquivo do desafio não possuia a permissão para poder executá-lo, foi necessário o uso do chmod para conceder essa permissão e em seguida utilizar o comando 
+`./challenge_20`**
+```bash
+  chmod +x challenge_20 && ./challenge_20
+```
+---
 
