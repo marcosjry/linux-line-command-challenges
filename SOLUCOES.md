@@ -98,5 +98,9 @@ O comando usado foi o `echo "" > empty.txt`**
   echo "some text added." >> restricted.txt
 ```
 ---
-
+**p20-b: o comando usado aqui foi o `./<nome do arquivo a executar>`. ao executar esse comando no terminal, ele irá executar o arquivo com o nome especificado.**
+```bash
+  ./hello_executable
+```
+---
 
