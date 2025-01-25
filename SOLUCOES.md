@@ -137,3 +137,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     ./redirect > output.txt 2>&1
 ```
 ---
+**p24-b: para resolver esse desafio é só executar o comando `date`. Ele irá mostrar na tela a data e hora atual do sistema.**
+```bash
+    date
+```
+---
