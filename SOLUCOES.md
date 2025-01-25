@@ -68,4 +68,8 @@ O comando usado foi o `echo "" > empty.txt`**
  cp hello.txt goodbye.txt
 ```
 ---
-
+**p14-b: aqui o comando usado foi o `mv <nome do arquivo> <novo nome do arquivo>`. Esse comando apenas altera o nome do arquivo, ele não copia. Ele também pode ser usado para mover um arquivo mas ai sua declaração será diferente.**
+```bash
+ mv goodbye.txt hello_copy.txt
+```
+---
