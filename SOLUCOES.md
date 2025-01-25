@@ -147,3 +147,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     ps -e
 ```
 ---
+**p26-b: o comando usado aqui foi o `nproc`. Ao executá-lo ele informará a quantidade de processadores do seu sistema**
+```bash
+    nproc
+```
+---
