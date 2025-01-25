@@ -152,3 +152,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     nproc
 ```
 ---
+**p27-b: o comando usado aqui foi o `uname -a`. Ao executá-lo, irá informar detalhes completos do sistema como a versão do Linux, nome do computador, etc.**
+```bash
+    uname -a
+```
+---
