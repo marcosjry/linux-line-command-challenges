@@ -39,13 +39,21 @@
 ```bash
  echo "Hello world" > hello.txt
 ```
+---
 **p9-b: o comando pra realizar a tarefa é o `cat <nome do arquivo>.txt > <nome do arquivo>.txt`
 ele criará um arquivo vazio com o nome escolhido.**
 ```bash
  cat empty.txt > empty.txt
 ```
+---
 **p10-b: aqui o comando pra realizar o desafio é o `rm <nome do arquivo>` ele removerá o arquivo que for passado pra ele e em caso de erro, ele avisa o que aconteceu.**
 ```bash
  rm empty.txt
 ```
-
+---
+**p11-i: aqui eu voltei na lógica do desafio que pediu pra criar um arquivo com texto, e testei pra ver se o echo também poderia ser usado para esse fim, e funcionou.
+O comando usado foi o `echo "" > empty.txt`**
+```bash
+ echo "" > empty.txt
+```
+---
