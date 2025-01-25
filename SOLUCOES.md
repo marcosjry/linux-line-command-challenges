@@ -87,3 +87,7 @@ O comando usado foi o `echo "" > empty.txt`**
 ```bash
   pwd
 ```
+**p18-b: o comando usado aqui foi o `ls` novamente. No entanto, dessa fez com a flag `-l` para que além de mostrar os arquivos no diretório, também mostre suas respectivas permissões.**
+```bash
+  ls -l
+```
