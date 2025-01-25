@@ -1,0 +1,2 @@
+If you're still seeing this on the command line, you haven't solved the challenge. If you're seeing this in "output.txt", congratulations.
+This output should go to "output.txt"
