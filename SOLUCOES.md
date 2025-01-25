@@ -87,7 +87,16 @@ O comando usado foi o `echo "" > empty.txt`**
 ```bash
   pwd
 ```
-**p18-b: o comando usado aqui foi o `ls` novamente. No entanto, dessa fez com a flag `-l` para que além de mostrar os arquivos no diretório, também mostre suas respectivas permissões.**
+---
+**p18-b: o comando usado aqui foi o `ls` novamente. No entanto, dessa vez com a flag `-l` para que além de mostrar os arquivos no diretório, também mostre suas respectivas permissões.**
 ```bash
   ls -l
 ```
+---
+**p19-b: o comando usado aqui foi o `echo` novamente. No entanto, dessa vez da seguinte maneira `echo "<texto qualquer>" >> <nome do arquivo>`. o uso de `>>` faz com que em vez de sobrescrever o que está no arquivo, seja adicionado ao fim.**
+```bash
+  echo "some text added." >> restricted.txt
+```
+---
+
+
