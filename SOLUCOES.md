@@ -39,3 +39,9 @@
 ```bash
  echo "Hello world" > hello.txt
 ```
+**p9-b: o comando pra realizar a tarefa é o `cat <nome do arquivo>.txt > <nome do arquivo>.txt`
+ele criará um arquivo vazio com o nome escolhido.**
+```bash
+ cat empty.txt > empty.txt
+```
+
