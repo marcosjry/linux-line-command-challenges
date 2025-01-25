@@ -173,3 +173,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     tail -n 25 people.csv
 ```
 ---
+**p31-i: o comando usado aqui foi aquele mesmo `diff` usado no desafio 15. Porquê? Ele naturalmente em caso de diferenças entre o conteúdo dos arquivos escolhidos, apenas mostrará o que está diferente. Mas para uma melhor visualização podemos ainda usar o `| grep "[<>]"` ao fim do comando para que ele deixe a visualização mais limpa.**
+```bash
+    diff greeting1.txt greeting2.txt | grep "[<>]"
+```
+---
