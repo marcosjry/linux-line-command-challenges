@@ -82,3 +82,8 @@ O comando usado foi o `echo "" > empty.txt`**
 ```bash
   cat hello.txt hello_copy.txt > 2_hellos.txt
 ```
+---
+**p17-b: o comando usado aqui foi o `pwd` ele mostra o caminho completo para o diretório em você estiver atualmente.**
+```bash
+  pwd
+```
