@@ -44,4 +44,8 @@ ele criará um arquivo vazio com o nome escolhido.**
 ```bash
  cat empty.txt > empty.txt
 ```
+**p10-b: aqui o comando pra realizar o desafio é o `rm <nome do arquivo>` ele removerá o arquivo que for passado pra ele e em caso de erro, ele avisa o que aconteceu.**
+```bash
+ rm empty.txt
+```
 
