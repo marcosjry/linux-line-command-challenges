@@ -183,3 +183,21 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     echo "Hello" && sleep 5 && echo "world!"
 ```
 ---
+**p33-i: nesse desafio foi necessário utilizar o comando `dd` do seguinte modo:**
+```bash
+    dd if=/dev/zero of=arquivo.txt bs=1M count=1
+```
+
+- **if=/dev/zero -** Especifica que o conteúdo do arquivo será preenchido com zeros.
+
+- **of=arquivo.txt -** Define o nome do arquivo de saída (você pode escolher o nome que quiser).
+
+- **bs=1M -** Define o tamanho do bloco como 1 MB.
+
+- **count=1 -** Cria 1 bloco, ou seja, o arquivo terá 1 MB.
+
+**obs: esse não é o único jeito de criar o arquivo desse desafio.**
+
+---
+
+
