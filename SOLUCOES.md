@@ -63,4 +63,9 @@ O comando usado foi o `echo "" > empty.txt`**
  > empty.txt
 ```
 ---
+**p13-b: aqui o comando usado foi o `cp <nome do arquivo a ser copiado> <novo nome para o arquivo copiado>`. Ao utilizá-lo você informa o arquivo que quer copiar e qual será seu novo nome.**
+```bash
+ cp hello.txt goodbye.txt
+```
+---
 
