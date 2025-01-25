@@ -157,3 +157,9 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     uname -a
 ```
 ---
+**p28-b: o comando usado aqui foi o `grep -r "texto que você quer encontrar" <nome do diretorio>`. Com ele você escolhe o texto que está procurando e diz o diretório, ao executá-lo será possível identificar em qual arquivo está contido o texto inserido.**
+```bash
+    grep -r "You found the needle in the haystack!" bunch_of_files/
+```
+---
+grep -r "You found the needle in the haystack!" bunch_of_files/
