@@ -162,3 +162,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     grep -r "You found the needle in the haystack!" bunch_of_files/
 ```
 ---
+**p29-b: o comando usado aqui foi o `head`. Com ele você pode especificar em qual arquivo você quer consultar e quantas linhas da seguinte forma `head -n <numero de linhas> <nome-exemplo>.csv`**
+```bash
+    head -n 25 people.csv
+```
+---
