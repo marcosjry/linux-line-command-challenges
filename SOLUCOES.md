@@ -73,3 +73,7 @@ O comando usado foi o `echo "" > empty.txt`**
  mv goodbye.txt hello_copy.txt
 ```
 ---
+**p15-i: o comando utilizado foi o `diff <nome de um arquivo a comparar> <nome do segundo arquivo>`. Ele compara o conteúdo dos dois arquivos e caso sejam iguais ele não mostra nada no terminal, caso sejam diferentes ele mostrará o conteúdo de ambos.**
+```bash
+diff hello.txt hello_copy.txt
+```
