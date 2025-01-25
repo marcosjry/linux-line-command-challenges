@@ -162,4 +162,3 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     grep -r "You found the needle in the haystack!" bunch_of_files/
 ```
 ---
-grep -r "You found the needle in the haystack!" bunch_of_files/
