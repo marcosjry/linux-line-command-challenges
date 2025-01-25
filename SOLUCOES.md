@@ -167,3 +167,9 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     head -n 25 people.csv
 ```
 ---
+**p30-b: o comando usado aqui foi o `tail`. Com ele você pode especificar em qual arquivo você quer consultar e quantas linhas da seguinte forma `tail -n <numero de linhas> <nome-exemplo>.csv`**
+**(segue o mesmo padrao do head)**
+```bash
+    tail -n 25 people.csv
+```
+---
