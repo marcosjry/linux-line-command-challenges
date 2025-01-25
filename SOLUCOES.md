@@ -57,3 +57,10 @@ O comando usado foi o `echo "" > empty.txt`**
  echo "" > empty.txt
 ```
 ---
+**p12-i: nesse caso, por um erro acabei descobrindo que da pra criar arquivos usando apenas o comando 
+`> <nome do arquivos>` (e aparentemente, há mais formas ainda de criar um arquivo).**
+```bash
+ > empty.txt
+```
+---
+
