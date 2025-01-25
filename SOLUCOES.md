@@ -178,3 +178,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     diff greeting1.txt greeting2.txt | grep "[<>]"
 ```
 ---
+**p32-i: aqui utilizei uma combinação do `sleep` e o `echo`, o sleep para aguardar os 5 segundos do desafio e o echo para printar a string.**
+```bash
+    echo "Hello" && sleep 5 && echo "world!"
+```
+---
