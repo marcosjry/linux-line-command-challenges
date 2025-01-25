@@ -142,3 +142,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     date
 ```
 ---
+**p25-b: assim como no docker (pra quem conhece) no terminal do linux é possível usar o comando `ps` para conseguir verificar os processos que estão em execução. Pra ser mais exato `ps -e`. Mas existem mais flags que podem ser usadas nesse caso.**
+```bash
+    ps -e
+```
+---
