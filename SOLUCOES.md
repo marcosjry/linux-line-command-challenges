@@ -109,9 +109,14 @@ O comando usado foi o `echo "" > empty.txt`**
   chmod +x challenge_20 && ./challenge_20
 ```
 ---
-**p22-b: aqui foi necessário instalar o gcc que é o compilador da linguagem C. E em seguida usar o `gcc` para fazer a versão compilada do arquivo `compile_me.c`.**
+**p22-b: aqui foi necessário `instalar o gcc` que é o compilador da linguagem C. E em seguida usar o `gcc` para fazer a versão compilada do arquivo `compile_me.c`.**
 
 **1° - instalar o gcc:**
 ```bash
   sudo apt install gcc
 ```
+**2° - compilar o código com o gcc e executá-lo:**
+```bash
+    gcc compile_me.c -o compile_me && ./compile_me
+```
+---
