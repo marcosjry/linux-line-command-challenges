@@ -120,3 +120,20 @@ O comando usado foi o `echo "" > empty.txt`**
     gcc compile_me.c -o compile_me && ./compile_me
 ```
 ---
+**p23-b: Geralmente a execução de um programa possui três saídas:**
+
+- Saída padrão (stdout): É a saída normal gerada pelo programa.
+
+- Erro padrão (stderr): É onde os erros são enviados.
+
+- padrão (stdin): É usada para enviar dados de entrada para o programa.
+
+**E nesse desafio foi utilizado o comando `./<nome do programa> > <nome do arquivo> 2>&1`
+o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as mensagens de saída quanto as mensagens de erro.**
+
+**Se não fosse usado o comando `2>&1`, dentro do output.txt haveria apenas o primeiro output e não tudo como pedia no desafio.**
+
+```bash
+    ./redirect > output.txt 2>&1
+```
+---
