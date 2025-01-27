@@ -273,3 +273,15 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     time awk -F',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l 
 ```
 ---
+**p42-a: O comando usado aqui foi novamente o `awk` mas com novas propriedades, para que seja possível identificar quantas pessoas possuem o primeiro nome "Josiah" no arquivo people.csv**
+
+**Comando usado:**
+```bash
+    awk -F',' '$4 == "Josiah" {count++} END {print count}' people.csv
+```
+**Explicando as novas propriedades:**
+
+- **$4 == "Josiah"** Verifica se o primeiro nome na coluna 4 (first name) é "Josiah".
+- **count++** Conta quantas vezes o nome aparece.
+- **END {print count}** Exibe o total de ocorrências após o processamento do arquivo.
+---
