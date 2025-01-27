@@ -199,5 +199,14 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 **obs: esse não é o único jeito de criar o arquivo desse desafio.**
 
 ---
+**p34-i: nesse desafio foi necessário reutilizar o comando `dd`, que usei no desafio anterior, do seguinte modo:**
+```bash
+    dd if=/dev/urandom of=arquivo_aleatorio.txt bs=1M count=2
+```
+- **if=/dev/urandom -** Gera dados aleatórios.
+- **of=arquivo_aleatorio.txt -** Define o nome do arquivo de saída.
+- **bs=1M -** Define o tamanho do bloco como 1 MB.
+- **count=2 -** Especifica que serão criados 2 blocos, ou seja, 2 MB.
 
+---
 
