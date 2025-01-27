@@ -1,9 +1,7 @@
 # Registro dos comandos usados para os desafios do ```Command Line Challenges```
 
----
 ## **Desafios e Soluções**
 
---- 
 ####    P1-B
 utilizei o comando `tar`, ele é amplamente usado no linux para desempacotar e empacotar arquivos.
 
