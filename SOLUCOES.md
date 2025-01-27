@@ -261,3 +261,15 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 *Nesse caso, o `grep -v "Last Name"`, remove todas as linhas que contêm o texto "Last Name".*
 
 ---
+**p41-a: acrescentando o comando `time` ao início dos dois códigos realizados nos exercícios anteriores para encontrar os nomes únicos do arquivos `people.csv` foi possível notar que há um atraso maior na busca desses nomes quando é realizado o uso do comando `grep`. Acredito que isso se dá porque o comando grep é um comando extra na linha de comando quando combinado com o `awk`.**
+
+
+- *Menos eficiente*
+```bash
+    time grep -v "Last Name" people.csv | awk -F',' '{print $2}' | sort | uniq | wc -l 
+```
+- *Mais eficiente*
+```bash
+    time awk -F',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l 
+```
+---
