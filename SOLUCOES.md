@@ -299,3 +299,12 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 **OBS:** Nesse caso, não foi especificado para o `ls` o diretório *porque o comando foi executado dentro do diretório challenges*, mas poderia ser feito da seguinte forma:
 `ls -l <caminho para o diretório ou nome do diretório disponível> | grep -v '^d' | wc -l`
 ---
+**p44-i: Nesse desafio, novamente foi utilizado uma combinação do comando `ls`e `grep` mas com assinaturas diferentes das usadas anteriormente.**
+
+**Comando utilizado:**
+```bash
+    ls -l | grep '^d' | wc -l
+```
+*é possível notar que aqui há a ausência da flag -v no comando `grep` que foi usada anteriormente para filtrar.*
+
+---
