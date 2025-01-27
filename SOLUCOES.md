@@ -308,3 +308,15 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 *é possível notar que aqui há a ausência da flag -v no comando `grep` que foi usada anteriormente para filtrar.*
 
 ---
+**p45-i: aqui foi utilizado uma nova combinação de comandos. Resolvi combinar o comando `cd` com os comandos utilizados nos últimos exercícios para resolver esse. Entrei no diretório *challenges* e em seguida no subdiretório *bunch_of_files*, listei os arquivos, filtrei e em seguida passei os arquivos filtrados para o comando `rm` para que cada um dos arquivos do desafio fosse excluído.**
+
+```bash
+    cd challenges/bunch_of_files && ls | grep 'deleteme' | xargs rm
+```
+- **grep 'deleteme'** - Filtra os arquivos que contêm "deleteme" no nome.
+
+- **xargs rm** - Passa os arquivos encontrados para o comando `rm` para que ele possa excluir cada um.
+
+*OBS: não era necessário utilizar o `cd` aqui. Daria pra passar o diretório pelo próprio `ls` como foi exemplificado anteriormente. Foi só uma escolha pessoal pra fazer diferente.*
+
+---
