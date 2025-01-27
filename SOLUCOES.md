@@ -209,4 +209,12 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 - **count=2 -** Especifica que serão criados 2 blocos, ou seja, 2 MB.
 
 ---
+**p35-i: nesse desafio o comando utilizado foi o `wc` (word count), seguido da tag -l. Para usá-lo é necessário informar o nome do arquivo dessa forma: `wc -l <nome do arquivo>`, no entanto assim ele retornará a quantidade de linhas seguida do nome do Arquivo especificado.**
+
+**Caso queira que seja informado apenas o numero de linhas do arquivo, execute o comando da seguinte forma: `wc -l < <nome do arquivo>`**
+
+```bash
+    wc -l < README.txt
+```
+---
 
