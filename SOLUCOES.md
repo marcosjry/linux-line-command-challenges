@@ -361,3 +361,20 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     rm ./*
 ```
 ---
+**p50-a: nesse desafio existem várias maneiras de conseguir finalizá-lo. No entanto, tentar manter um número menor de caracteres como foi a pergunta desse desafio, é mais difícil.**
+
+*Caso seu bash tenha suporte para expansão de chaves*
+```bash
+    touch {a..c}-{1..3}.txt
+```
+
+_A expansão de chave (ou brace expansion) é um recurso do shell (como o Bash) que permite gerar automaticamente listas de strings com base em um padrão definido entre chaves {}. Ela é usada para criar combinações de valores sem precisar escrever cada um manualmente, economizando tempo e escrita_
+
+*Exemplo de expansão de chaves*
+```bash
+    echo {a,b,c}-{1..3}
+```
+_output:_
+
+    a-1 a-2 a-3 b-1 b-2 b-3 c-1 c-2 c-3
+---
