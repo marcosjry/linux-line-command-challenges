@@ -217,4 +217,9 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     wc -l < README.txt
 ```
 ---
-
+**p36-b: para resolver esse desafio foi necessário apenas fazer uso do comando `tac`, ele exibe as linhas de um arquivo na ordem inversa, exatamente o que se pede no exercício.
+`tac <nome do arquivo>`.**
+```bash
+    tac README.txt
+```
+---
