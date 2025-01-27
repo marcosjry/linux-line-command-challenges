@@ -250,3 +250,14 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 **p39-a: desde o primeiro exercício onde foi usado o comando `awk`, em seguida também foi usada a propriedade `NR > 1` ela automaticamente começa a contagem sem levar em conta o cabeçalho.**
 
 ---
+**p40-a: nesse desafio uma outra forma que encontrei de contar os nomes únicos do arquivo sem contar com o cabeçalho/header foi substituindo o `NR > 1` pelo `grep`.**
+
+**Ficou assim:**
+
+```bash
+    grep -v "Last Name" people.csv | awk -F',' '{print $2}' | sort | uniq | wc -l
+```
+
+*Nesse caso, o `grep -v "Last Name"`, remove todas as linhas que contêm o texto "Last Name".*
+
+---
