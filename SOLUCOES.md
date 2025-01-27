@@ -320,3 +320,16 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 *OBS: não era necessário utilizar o `cd` aqui. Daria pra passar o diretório pelo próprio `ls` como foi exemplificado anteriormente. Foi só uma escolha pessoal pra fazer diferente.*
 
 ---
+**p46-i: nesse desafio foi necessário fazer uso de um novo comando, o `sed`. Dessa forma: `sed -i 's/texto_antigo/texto_novo/' <nome do arquivo.txt>`**
+
+**na declaração do comando você diz o texto que você quer substituir e qual o novo texto que deverá ficar no lugar do antigo. Em seguida, deve informar em qual arquivo você quer que a alteração ocorra.**
+
+```bash
+    sed -i 's/You found the needle in the haystack!/he needle has been removed./' file719.rand
+```
+
+- a flag `-i` Modifica o arquivo diretamente (faz a substituição no próprio arquivo, sem criar uma cópia).
+
+*E claro, aqui foi necessário buscar o nome do arquivo que continha a mensagem do desafio. Nesse sentido, reutilizei o mesmo código do desafio 28 para identificar o nome do arquivo desejado.*
+
+---
