@@ -341,3 +341,12 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 - *aqui foi necessário acrescentar dentro de `'s/,/|/g'` o `g` que não estava presente anteriormente. Caso o comando seja executado sem ele, a mudança não será implementada em todas as `,` (vírgulas) do arquivo. A mudança ocorreria apenas na primeira linha.*
 - *para salvar em um novo arquivo foi usado `> people_pipe.csv`, dessa forma as mudanças estão presentes apenas no novo arquivo.*
 ---
+**p48-a: nesse desafio foi necessário utilizar novos comandos para finalizá-lo. o comando utilizado foi o `find`. A execução no prompt ficou:**
+```bash
+    find -type f -exec cmp --silent file001.rand {} \; -print
+```
+- **find </caminho/do/diretorio>** - Procura por arquivos no diretório. *no caso se você já estiver com o diretório aberto e quiser apenas buscar dentro dele, pode chamar o `find`sem passar o caminho para um diretório que ele fará a busca no diretório atual.*
+- **-type f** - Filtra para procurar apenas arquivos (e não diretórios).
+- **cmp --silent file001.rand {}** - Compara o arquivo file001.rand com cada arquivo encontrado. O parâmetro --silent faz com que cmp não produza saída, apenas retorne o status de comparação.
+- **print** - Exibe o caminho dos arquivos que são idênticos ao arquivo original.
+---
