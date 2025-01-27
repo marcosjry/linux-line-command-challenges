@@ -234,3 +234,16 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     awk -F',' 'NR > 1 {print $2}' people.csv
 ```
 ---
+**p38-a: aqui novamente foi usado o comando `awk`. No entanto dessa vez com novas propriedades para ser possível identificar a quantidade de nomes únicos no arquivo do desafio.**
+
+**São elas:**
+- **sort** Ordena os valores (necessário para usar uniq).
+
+- **uniq** Remove duplicatas.
+
+- **wc -l** Conta o número de linhas únicas.
+
+```bash
+    awk -F',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
+```
+---
