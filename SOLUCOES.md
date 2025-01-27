@@ -223,3 +223,14 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     tac README.txt
 ```
 ---
+**p37-i: nesse desafio foi necessário utilizar o comando `awk -F',' 'NR > 1 {print $2}' <nome do arquivo>`**
+
+**-F','**   Define a vírgula como delimitador.
+
+**NR > 1**    Ignora a primeira linha (cabeçalho).
+
+**$2**    Seleciona a segunda coluna.
+```bash
+    awk -F',' 'NR > 1 {print $2}' people.csv
+```
+---
