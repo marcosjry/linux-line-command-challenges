@@ -247,3 +247,6 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
     awk -F',' 'NR > 1 {print $2}' people.csv | sort | uniq | wc -l
 ```
 ---
+**p39-a: desde o primeiro exercício onde foi usado o comando `awk`, em seguida também foi usada a propriedade `NR > 1` ela automaticamente começa a contagem sem levar em conta o cabeçalho.**
+
+---
