@@ -285,3 +285,17 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 - **count++** Conta quantas vezes o nome aparece.
 - **END {print count}** Exibe o total de ocorrências após o processamento do arquivo.
 ---
+**p43-i: aqui, para contar o número de arquivos no diretório *challenges* foi necessário combinar novamente alguns comandos, como o `grep` e o `ls`.**
+
+**Comando utilizado:**
+
+```bash
+    ls -l | grep -v '^d' | wc -l
+```
+- **ls -l** - lista todos os arquivos no diretório
+- **grep -v '^d'** - Filtra a saída para excluir linhas que começam com "d" (indicando que é um diretório).
+- **wc -l** - Conta o número de linhas da saída filtrada, nesse caso, o número de arquivos.
+
+**OBS:** Nesse caso, não foi especificado para o `ls` o diretório *porque o comando foi executado dentro do diretório challenges*, mas poderia ser feito da seguinte forma:
+`ls -l <caminho para o diretório ou nome do diretório disponível> | grep -v '^d' | wc -l`
+---
