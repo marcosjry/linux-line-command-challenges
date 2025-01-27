@@ -333,3 +333,11 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 *E claro, aqui foi necessário buscar o nome do arquivo que continha a mensagem do desafio. Nesse sentido, reutilizei o mesmo código do desafio 28 para identificar o nome do arquivo desejado.*
 
 ---
+**p47-a: aqui foi fácil, com base no desafio anterior foi preciso apenas reutilizar o comando do desafio para a finalidade do desafio atual. Porém, houve a necessidade de acrescentar duas mudanças.**
+
+```bash
+    sed 's/,/|/g' people.csv > people_pipe.csv
+```
+- *aqui foi necessário acrescentar dentro de `'s/,/|/g'` o `g` que não estava presente anteriormente. Caso o comando seja executado sem ele, a mudança não será implementada em todas as `,` (vírgulas) do arquivo. A mudança ocorreria apenas na primeira linha.*
+- *para salvar em um novo arquivo foi usado `> people_pipe.csv`, dessa forma as mudanças estão presentes apenas no novo arquivo.*
+---
