@@ -350,3 +350,9 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 - **cmp --silent file001.rand {}** - Compara o arquivo file001.rand com cada arquivo encontrado. O parâmetro --silent faz com que cmp não produza saída, apenas retorne o status de comparação.
 - **print** - Exibe o caminho dos arquivos que são idênticos ao arquivo original.
 ---
+**p49-a: aqui para não perder os outros arquivos dos desafios já realizados, realizei os dois exercícios do desafio do seguinte modo:**
+
+- criei um diretório com o nome `desafio-49`, criei o arquivo `supercalifragilisticexpialidocious.txt` e o enviei para o diretório criado.
+```bash
+    mkdir desafio-49 | > supercalifragilisticexpialidocious.txt | mv supercalifragilisticexpialidocious.txt desafio-49
+```
