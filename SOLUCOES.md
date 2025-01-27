@@ -356,3 +356,8 @@ o comando `2>&1` no final, avisa que o arquivo `output.txt` conterá tanto as me
 ```bash
     mkdir desafio-49 | > supercalifragilisticexpialidocious.txt | mv supercalifragilisticexpialidocious.txt desafio-49
 ```
+- para completar o desafio com um comando que não exceda os 5 caracteres usei o `rm` mesmo.
+```bash
+    rm ./*
+```
+---
